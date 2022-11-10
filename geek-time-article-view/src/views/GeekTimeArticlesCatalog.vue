@@ -106,6 +106,7 @@ export default {
   min-height: 30px;
   margin-left: 0px;
   margin-bottom: 5px;
+
 }
 
 .editor-content-view blockquote {
