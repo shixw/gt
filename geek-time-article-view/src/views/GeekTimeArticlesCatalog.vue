@@ -92,14 +92,20 @@ export default {
   font-size: 17px;
   line-height: 30px;
   color: #353535;
+  padding-bottom: 50px;
 }
 
-.editor-content-view p,
-.editor-content-view li {
+.editor-content-view p {
   white-space: pre-wrap; /* 保留空格 */
   min-height: 30px;
   margin-left: 0px;
   margin-bottom: 30px;
+}
+.editor-content-view li {
+  white-space: pre-wrap; /* 保留空格 */
+  min-height: 30px;
+  margin-left: 0px;
+  margin-bottom: 5px;
 }
 
 .editor-content-view blockquote {
