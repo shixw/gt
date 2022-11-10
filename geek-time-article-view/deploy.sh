@@ -11,10 +11,10 @@ cd dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:shixw/geek-time.git
+  githubUrl=git@github.com:shixw/gt.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://shixw:${GITHUB_TOKEN}@github.com/shixw/geek-time.git
+  githubUrl=https://shixw:${GITHUB_TOKEN}@github.com/shixw/gt.git
 fi
 git config --global user.name "shixw"
 git config --global user.email "shixw_usr@126.com"
