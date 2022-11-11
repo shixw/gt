@@ -16,6 +16,7 @@ else
   msg='来自github actions的自动部署'
   githubUrl=https://shixw:${GITHUB_TOKEN}@github.com/shixw/gt.git
 fi
+echo githubUrl
 git config --global user.name "shixw"
 git config --global user.email "shixw_usr@126.com"
 git init
